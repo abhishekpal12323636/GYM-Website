@@ -1,0 +1,393 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .logo {
+            font-weight: 800;
+            font-size: 20px;
+            color: rgb(244, 248, 248);
+        }
+        /*navigationbar decoration */
+        
+        header {
+            top: 0;
+            left: 0;
+            /* position: fixed; */
+            width: 100vw;
+            background-color: #131418;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 10px;
+            height: 64px;
+        }
+        
+        .navLink li {
+            display: inline-block;
+            padding: 2px 10px;
+            justify-content: space-between;
+        }
+        
+        .navLink li a {
+            padding: 2px 10px;
+            font-size: 20px;
+            font-weight: 700;
+            color: rgb(218, 218, 218);
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            transition: all 0.4s ease 0s;
+        }
+        
+        .navLink li a:hover {
+            color: rgb(29, 25, 19);
+            background-color: rgba(44, 196, 247, 0.8);
+            border-radius: 50px;
+        }
+        
+        button {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 0 23px;
+            text-align: center;
+            font-size: 23px;
+            height: 30px;
+            color: rgb(253, 255, 255);
+            width: 120px;
+            border-radius: 50px;
+            background-color: rgb(53, 36, 4);
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease 0s;
+        }
+        
+        button:hover {
+            background-color: rgba(44, 196, 247, 0.8);
+            color: black;
+        }
+        /* responsive navigation bar */
+        /* crausal -----css */
+        
+        .crausal {
+            align-items: center;
+            width: 100vw;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            height: 100vh;
+            background-image: url('pic/Spine+Posture+Back.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #head {
+            margin-top: 18%;
+            display: inline-block;
+            font-weight: 800;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #66d8fd;
+            /* box-shadow: coral 0px 0px 9px 0px; */
+            text-shadow: rgb(0, 0, 0);
+            font-size: 55px;
+        }
+        
+        #slogan {
+            color: #77f5f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 600;
+            font-size: 23px;
+            padding: 34px 270px;
+        }
+        /* introduction about the trainer */
+        
+        .card {
+            display: flex;
+            width: 100vw;
+            height: 400px;
+            justify-content: space-evenly;
+        }
+        /* iamge Section  */
+        
+        .TrainerPicture {
+            padding: 15px;
+            width: 40%;
+            height: 400px;
+        }
+        
+        .introOfTrainer {
+            width: 50%;
+        }
+        
+        #subHeading {
+            color: rgb(110, 78, 40);
+            margin: 25px 10px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+        .trainerType {
+            margin: 14px;
+            padding: 3px;
+            font-size: 28px;
+        }
+        
+        span {
+            color: #f10a0a;
+            font-size: 32px;
+        }
+        
+        p {
+            color: #1b8888;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            padding: 0px 5px;
+            margin: 19px;
+        }
+        /* Type of traning */
+        
+        .typeOfTrainerDetails ul {
+            padding: 14px;
+            margin: 24px;
+            list-style: square;
+        }
+        
+        .typeOfTrainerDetails ul li {
+            margin: 0px 2px;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 700;
+        }
+        
+        .typeOfTrainerDetails li a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        li :hover {
+            color: brown;
+        }
+        /* ------------------join us------------------ */
+        
+        #joinUs {
+            width: 100vw;
+            height: 100vh;
+            background-color: brown;
+        }
+        
+        h6 {
+            padding: 13px 23px;
+            font-size: 25px;
+            text-align: center;
+            color: #109ff3;
+        }
+        
+        .JoinUsHeading {
+            text-align: center;
+            color: aliceblue;
+            padding: 2px 229px;
+            font-size: 34px;
+            font-weight: 700;
+        }
+        /* ---------------- card-----------*/
+        
+        .cardBox1 {
+            margin-top: 23px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .cardBox {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .card2 {
+            display: block;
+            width: 100%;
+            height: 100%;
+            justify-content: space-around;
+        }
+        
+        .card3 {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border-right: 1px solid rgb(247, 241, 241);
+            border-left: 1px solid rgb(255, 254, 254);
+            justify-content: space-around;
+        }
+        
+        .cardBox {
+            height: 70vh;
+            width: 30%;
+        }
+        
+        .joinUsPicture {
+            margin: 0px 104px;
+            width: 52%;
+            height: 48%;
+            /* border: 1px solid black; */
+            background-size: cover;
+            border-radius: 23px;
+        }
+        
+        .trainerImage1 {
+            border-radius: 50%;
+        }
+        
+        img {
+            height: 100%;
+            width: 100%;
+        }
+        
+        .joinUsBody {
+            width: 100%;
+            height: 54%;
+        }
+        
+        #cardHeading {
+            font-size: 33px;
+            padding: 8px;
+            margin: 0px 17px;
+            text-align: center;
+            color: #a5d5ff;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .caedContent {
+            font-size: 14px;
+            font-weight: 600;
+            padding: 8px;
+            margin: 8px;
+            color: #6af18d;
+            text-align: center;
+        }
+        /* -----hover Affect on  card ----*/
+        
+        .cardBox:hover {
+            box-shadow: 2px 2px 3px 3px rgb(115, 222, 230);
+        }
+        /* This part containes trainer pictures and workout */
+        
+        .trainerPicture {
+            width: 100vw;
+            height: 95vh;
+            background-color: black;
+        }
+        
+        .cardBoxForTrainer {
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            height: auto;
+        }
+        
+        .cardBoxForTrainer:hover {
+            box-shadow: 2px 2px 2px 1px cornflowerblue;
+        }
+        
+        .cardBox1 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .trainerImage1 {
+            /* width: 100%;
+            height: 100%; */
+        }
+        /* ---------------------login page ------------------*/
+        
+        #contactArea {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            background-image: url('pic.jpg');
+            background-size: cover;
+            background-repeat: round;
+        }
+        
+        .loginArea {
+            top: 0px;
+            width: 359px;
+            height: 85%;
+            position: relative;
+            background-color: rgba(80, 177, 223, 0.3);
+            /* opacity: 0.8; */
+            padding: 26px 29px;
+            box-shadow: 2px 5px 25px 9px rgb(16 1 1);
+        }
+        
+        .loginArea h2 {
+            color: rgb(33, 46, 54);
+            font-size: 34px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .Submit,
+        input {
+            border: none;
+            background: none;
+            outline: none;
+        }
+        
+        label {
+            display: block;
+            margin: 27px auto;
+            width: 200px;
+            text-align: center;
+        }
+        
+        label span {
+            font-size: 18px;
+            font-weight: 600;
+            color: rgb(25, 34, 36);
+            text-transform: uppercase;
+        }
+        
+        input {
+            width: 100%;
+            display: block;
+            margin-top: 4px;
+            padding: 9px;
+            border-bottom: 2px solid rgb(20, 17, 17);
+            text-align: center;
+        }
+        
+        .Submit {
+            display: block;
+            /* color: rgb(30, 244, 252); */
+            margin: 0px auto;
+            border-radius: 21px;
+            height: 28px;
+            font-weight: 600;
+            color: #091415;
+            width: 164px;
+            background: rgb(202, 202, 248);
+            font-size: 23px;
+            cursor: pointer;
+        }
+        
+        .Submit:hover {
+            background: cornflowerblue;
+            color: rgb(17, 13, 17);
+        }
+        
+        .forgotPassowrd {
+            font-size: 18px;
+            font-weight: 600;
+            color: rgb(199, 238, 238);
+            margin: 15px auto;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .forgotPassowrd:hover {
+            cursor: pointer;
+            color: rgb(253, 253, 253);
+            text-decoration-line: underline;
+        }
